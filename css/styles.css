@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400; /* Ajusta el peso de la fuente según sea necesario */
+    font-style: normal;
+}
+
+.ima {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centrar horizontalmente la imagen */
+}
+
+.ima img {
+    width: 100%; /* Establecer el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Permitir que la altura se ajuste proporcionalmente */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/Fondo1\ \(2\).jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 58, 83);
+}
+
+header img {
+    height: auto; 
+    image-orientation: left;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 58, 83);
+    font-size: 20px;
+}
+
+main img {
+    width: 200px; /* Cambia el tamaño de la imagen según lo necesites */
+    height: auto; /* Mantiene la proporción de aspecto */
+    image-orientation: flip;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 58, 83);
+}
+
+footer img {
+    width: 100px; /* Cambia el tamaño de la imagen según lo necesites */
+    height: auto; /* Mantiene la proporción de aspecto */
+    image-orientation: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para que el texto sea legible */
+}
+
+.car {
+    width: 90%; 
+    max-width: 600px; 
+    margin-top: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.car img {
+    max-width: 80%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+.regresiva {
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    font-size: 2em; /* Tamaño de fuente grande */
+    margin: 10px auto; /* Añade margen automático y un margen superior */
+    position: relative; /* Ajusta la posición para que se mantenga en el flujo del documento */
+    top: 0; /* Ajusta para estar en la parte superior */
+    right: 0;
+    left: 0;
+}
+
+.special-text {
+    color: #ff6347; /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente según tu preferencia */
+    font-weight: 700; /* Ajusta el peso de la fuente si es necesario */
+}
+
+.special-text2 {
+    color: #219779; /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente según tu preferencia */
+    font-weight: 700; /* Ajusta el peso de la fuente si es necesario */
+}
+
+.special-text1 {
+    color: #219779; /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente según tu preferencia */
+    font-weight: 1000; /* Ajusta el peso de la fuente si es necesario */
+    font-size: 30px;
+}
+
+.mja {
+color: rgb(30, 58, 83); /* Cambia este valor al color que desees */
+font-family: 'Dancing Script', cursive; /* Cambia la fuente según tu preferencia */
+font-weight: 1000; /* Ajusta el peso de la fuente si es necesario */
+font-size: 30px;
+}
+
+.p1 {
+    color: rgb(30, 58, 83); /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente según tu preferencia */
+    font-weight: 1000; /* Ajusta el peso de la fuente si es necesario */
+    font-size: 30px;;
+}
+
+.p2 {
+    color: #d88d1d; /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script'; /* Cambia la fuente según tu preferencia */
+    font-weight: 1000; /* Ajusta el peso de la fuente si es necesario */
+    font-size: 30px;;
+}
+
+.p3 {
+    color: #aa67ab; /* Cambia este valor al color que desees */
+    font-family: 'Dancing Script'; /* Cambia la fuente según tu preferencia */
+    font-weight: 1000; /* Ajusta el peso de la fuente si es necesario */
+    font-size: 30px;;
+}
+
+
+
+/* Media Queries */
+
+/* Estilos para tablets y dispositivos más pequeños */
+@media (max-width: 768px) {
+    main {
+        font-size: 18px;
+    }
+
+    .regresiva {
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .car img {
+        max-width: 90%;
+    }
+
+    footer img {
+        width: 80px;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media (max-width: 480px) {
+    main {
+        font-size: 16px;
+    }
+
+    .regresiva {
+        font-size: 1.2em;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .car img {
+        max-width: 100%;
+    }
+
+    footer img {
+        width: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+.offcanvas-transparent {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Fondo semitransparente para el offcanvas */
+}
